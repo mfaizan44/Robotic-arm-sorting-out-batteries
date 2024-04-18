@@ -1,0 +1,13 @@
+! Sample Epson RC+ Program
+
+1   ! Start of the program
+10  JUMP START
+20  LABEL START
+30  MOV L P1  ! Move to position P1
+40  WAIT 0.5  ! Wait for 0.5 seconds
+50  OUTPUT 1 ON  ! Turn on output 1 (e.g., gripper)
+60  MOV L P2  ! Move to position P2
+70  WAIT 0.5  ! Wait for 0.5 seconds
+80  OUTPUT 1 OFF  ! Turn off output 1 (e.g., gripper)
+90  MOV L P1  ! Move back to position P1
+100 GOTO START  ! Loop back to start
