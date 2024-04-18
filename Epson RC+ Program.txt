@@ -1,13 +1,12 @@
-! Sample Epson RC+ Program
+! Sample Epson RC+ Program with TCP/IP Listening
 
 1   ! Start of the program
-10  JUMP START
-20  LABEL START
-30  MOV L P1  ! Move to position P1
-40  WAIT 0.5  ! Wait for 0.5 seconds
-50  OUTPUT 1 ON  ! Turn on output 1 (e.g., gripper)
-60  MOV L P2  ! Move to position P2
-70  WAIT 0.5  ! Wait for 0.5 seconds
-80  OUTPUT 1 OFF  ! Turn off output 1 (e.g., gripper)
-90  MOV L P1  ! Move back to position P1
-100 GOTO START  ! Loop back to start
+10  TCP_LISTEN 5000  ! Listen on port 5000
+20  LABEL WAIT_FOR_SIGNAL
+30  TCP_ACCEPT hSocket  ! Accept incoming connection
+40  TCP_RECV hSocket, sData  ! Receive data
+50  IF sData == "MOVE" THEN
+60      MOV L P_TARGET  ! Move to target position
+70  ENDIF
+80  TCP_CLOSE hSocket
+90  GOTO WAIT_FOR_SIGNAL
