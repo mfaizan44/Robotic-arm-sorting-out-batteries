@@ -1,4 +1,5 @@
-! Enhanced Epson RC+ Program with Specific Commands
+
+! Enhanced Epson RC+ Program with Multiple Commands
 
 1   ! Start of the program
 10  TCP_LISTEN 5000  ! Listen on port 5000
@@ -6,14 +7,31 @@
 30  TCP_ACCEPT hSocket  ! Accept incoming connection
 40  TCP_RECV hSocket, sData  ! Receive data
 50  IF sData == "AA" THEN
-60      MOV L PICK_UP_POS  ! Move to pick-up position for AA batteries
-70      WAIT 0.5  ! Optional: Wait for a half second
-80      OUTPUT 1 ON  ! Activate gripper to pick up the battery
-90      WAIT 0.5  ! Hold the grip
+60      MOV L PICK_UP_AA  ! Move to pick-up position for AA batteries
+70      WAIT 0.5
+80      OUTPUT 1 ON
+90      WAIT 0.5
 100     MOV L DROP_OFF_A  ! Move to drop-off position for bin A
-110     OUTPUT 1 OFF  ! Release the battery
-120     MOV L HOME_POS  ! Return to home position
-130 ENDIF
-140 TCP_CLOSE hSocket
-150 GOTO WAIT_FOR_COMMAND
+110     OUTPUT 1 OFF
+120     MOV L HOME_POS
+130 ELSEIF sData == "D" THEN
+140     MOV L PICK_UP_D  ! Move to pick-up position for D batteries
+150     WAIT 0.5
+160     OUTPUT 1 ON
+170     WAIT 0.5
+180     MOV L DROP_OFF_B  ! Move to drop-off position for bin B
+190     OUTPUT 1 OFF
+200     MOV L HOME_POS
+210 ELSEIF sData == "9V" THEN
+220     MOV L PICK_UP_9V  ! Move to pick-up position for 9V batteries
+230     WAIT 0.5
+240     OUTPUT 1 ON
+250     WAIT 0.5
+260     MOV L DROP_OFF_C  ! Move to drop-off position for bin C
+270     OUTPUT 1 OFF
+280     MOV L HOME_POS
+290 ENDIF
+300 TCP_CLOSE hSocket
+310 GOTO WAIT_FOR_COMMAND
+
 
