@@ -43,5 +43,5 @@ To use the system, follow these steps:
 
 A demo video showcasing the project in action will be shared separately.
 
-Please feel free to reach out if you have any questions or need further assistance.
+
 
