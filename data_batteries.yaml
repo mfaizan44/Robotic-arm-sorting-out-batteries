@@ -1,0 +1,4 @@
+train: C:/Users/megha/OneDrive/Desktop/Sorting_Batteries_yolov8/dataset_bat/train/
+val: C:/Users/megha/OneDrive/Desktop/Sorting_Batteries_yolov8/dataset_bat/val/
+nc: 3
+names: ['AA', 'D type', '9v']
