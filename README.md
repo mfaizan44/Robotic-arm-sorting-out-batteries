@@ -16,6 +16,8 @@ The goal of this project is to develop a robotic system capable of accurately so
 
 ## Flow Chart
 
+![MicrosoftTeams-image (5)](https://github.com/mfaizan44/Robotic-arm-sorting-out-batteries/assets/131945639/eb46cd5a-a9a8-4b07-b647-4c494f62d17d)
+
 
 ## Code
 
