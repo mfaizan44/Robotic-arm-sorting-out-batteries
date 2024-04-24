@@ -25,6 +25,8 @@ The goal of this project is to develop a robotic system capable of accurately so
 
 The dataset used for training and testing the system is available at [Train Data & Test Data](https://drive.google.com/drive/folders/1BnLuf_FTUME0__BmJJTMBvCkZ9AJFn8p?usp=sharing). The dataset includes images of AA, D, and 9V batteries in various orientations and lighting conditions.
 
+We assembled a comprehensive dataset comprising 1581 training images, each containing up to 9 batteries, and 194 validation images to develop and evaluate our models. Additionally, we created a separate test set of 109 new images to assess the model's performance in novel environments. This diverse dataset is crucial for training and validating robust deep learning models tailored for battery classification tasks.
+
 ## Requirements
 
 - Epson VT6 robot
