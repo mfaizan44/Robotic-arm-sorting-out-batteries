@@ -6,8 +6,6 @@ This project uses an Epson VT6 robot with YOLOv8 for differentiating AA, D, and 
 
 The goal of this project is to develop a robotic system capable of accurately sorting different types of batteries, including AA, D, and 9V batteries, in an industrial setting. The system uses an Epson VT6 robot equipped with an electromagnetic gripper, along with yolov8, to detect and classify batteries.
 
-![WhatsApp Image 2024-04-24 at 22 48 51_a9c69827](https://github.com/mfaizan44/Robotic-arm-sorting-out-batteries/assets/131945639/a7011b6e-3a78-4c85-b224-02141d0870d9)
-
 ## Features
 
 - Automated sorting of AA, D, and 9V batteries.
@@ -15,6 +13,9 @@ The goal of this project is to develop a robotic system capable of accurately so
 - Yolov8 - from scratch trained model for differentiating three types of batteries 
 - Real-time sorting and classification of batteries.
 - Improved efficiency and accuracy compared to manual sorting methods.
+
+## Flow Chart
+
 
 ## Code
 
@@ -28,10 +29,6 @@ The goal of this project is to develop a robotic system capable of accurately so
 The dataset used for training and testing the system is available at [Train Data & Test Data](https://drive.google.com/drive/folders/1BnLuf_FTUME0__BmJJTMBvCkZ9AJFn8p?usp=sharing). The dataset includes images of AA, D, and 9V batteries in various orientations and lighting conditions.
 
 We assembled a comprehensive dataset comprising 1581 training images, each containing up to 9 batteries, and 194 validation images to develop and evaluate our models. Additionally, we created a separate test set of 109 new images to assess the model's performance in novel environments. This diverse dataset is crucial for training and validating robust deep learning models tailored for battery classification tasks.
-
-## Yolo V8 Structure
-
-![MicrosoftTeams-image (3)](https://github.com/mfaizan44/Robotic-arm-sorting-out-batteries/assets/131945639/9908fd2a-5ad3-43fe-b394-66e448fc0bc1)
 
 
 ## Requirements
@@ -67,4 +64,10 @@ A demo video showcasing the project in action : https://drive.google.com/file/d/
 ## Github Link
 
 https://github.com/mfaizan44/Robotic-arm-sorting-out-batteries
+
+## Final setup
+
+![WhatsApp Image 2024-04-24 at 22 48 51_a9c69827](https://github.com/mfaizan44/Robotic-arm-sorting-out-batteries/assets/131945639/a7011b6e-3a78-4c85-b224-02141d0870d9)
+
+
 
