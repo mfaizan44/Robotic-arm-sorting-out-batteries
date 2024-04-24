@@ -5,7 +5,7 @@ This project implements an automated sorting line with an industrial robot for b
 
 ## Introduction
 
-The goal of this project is to develop a robotic system capable of accurately sorting different types of batteries, including AA, D, and 9V batteries, in an industrial setting. The system uses an Epson VT6 robot equipped with an electromagnetic gripper, along with visual and depth sensors, to detect and classify batteries based on their size and shape.
+The goal of this project is to develop a robotic system capable of accurately sorting different types of batteries, including AA, D, and 9V batteries, in an industrial setting. The system uses an Epson VT6 robot equipped with an electromagnetic gripper, along with visual aid, to detect and classify batteries based on their size and shape.
 
 ## Features
 
