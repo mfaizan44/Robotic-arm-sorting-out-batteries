@@ -41,10 +41,16 @@ We assembled a comprehensive dataset comprising 1581 training images, each conta
 
 To use the system, follow these steps:
 
-1. Clone the GitHub repository to your local machine.
-2. Download the dataset and place it in the appropriate directory.
-3. Install the necessary dependencies as specified in the repository.
-4. Run the main script to start the automated sorting process.
+1.Establish connection and setup between the robot and electromagnetic gripper.
+2.Ensure communication between the robot and your PC using appropriate protocols.
+3.Use Epson RC+ simulation software to check or teach pickup and drop-off points.
+4.Connect the camera to your PC.
+5.Clone the GitHub repository to your local machine.
+6.Download the dataset and place it in the appropriate directory.
+7.Install required dependencies as specified in the repository.
+8.Connect the gripper to the Epson VT6 robot.
+9.Open the Python program in your editor (e.g., VSCode/Jupyter Notebook).
+10.Run the main program on Epson RC+ software, ensuring it's connected to the robot.
 
 ## Demo Video
 
