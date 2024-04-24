@@ -1,4 +1,4 @@
-# Robotic arm sorting out batteries
+# Battery sorting robot using Epson VT6 and YOLO v8.
 
 This project uses an Epson VT6 robot with YOLOv8 for differentiating AA, D, and 9V batteries. YOLOv8 helps the robot identify and categorize batteries in real-time, enhancing sorting efficiency. The study also integrates an electromagnet into the robotic arm for better battery handling, showcasing potential for sustainable battery management and recycling.
 
