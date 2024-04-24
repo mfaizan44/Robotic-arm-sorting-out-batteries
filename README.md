@@ -11,7 +11,7 @@ The goal of this project is to develop a robotic system capable of accurately so
 
 - Automated sorting of AA, D, and 9V batteries.
 - Utilizes visual and depth sensors for object detection.
-- Few-shot learning methods for visual detection.
+- Yolov8 - from scratch trained model for differentiating three types of batteries 
 - Real-time sorting and classification of batteries.
 - Improved efficiency and accuracy compared to manual sorting methods.
 
