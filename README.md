@@ -46,7 +46,7 @@ To use the system, follow these steps:
 
 ## Demo Video
 
-A demo video showcasing the project in action will be shared separately.
+A demo video showcasing the project in action : https://drive.google.com/file/d/1I7iv5gXTgrSRGcimD6vkMtcWSzNzqXBR/view?usp=sharing
 
 
 
