@@ -30,6 +30,7 @@ The dataset used for training and testing the system is available at [Train Data
 - YOLOv8 object detection model.
 - Python programming language.
 - EpsonRC+ Software
+- Batteries : AA, D type, 9v
 
 ## Usage
 
