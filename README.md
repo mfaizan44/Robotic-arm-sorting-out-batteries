@@ -1,11 +1,10 @@
 # Robotic arm sorting out batteries
 
-
-This project implements an automated sorting line with an industrial robot for batteries based on visual and depth sensors. The system utilizes few-shot learning methods for visual detection, allowing it to not rely on large datasets.
+This project uses an Epson VT6 robot with YOLOv8 for differentiating AA, D, and 9V batteries. YOLOv8 helps the robot identify and categorize batteries in real-time, enhancing sorting efficiency. The study also integrates an electromagnet into the robotic arm for better battery handling, showcasing potential for sustainable battery management and recycling.
 
 ## Introduction
 
-The goal of this project is to develop a robotic system capable of accurately sorting different types of batteries, including AA, D, and 9V batteries, in an industrial setting. The system uses an Epson VT6 robot equipped with an electromagnetic gripper, along with visual aid, to detect and classify batteries based on their size and shape.
+The goal of this project is to develop a robotic system capable of accurately sorting different types of batteries, including AA, D, and 9V batteries, in an industrial setting. The system uses an Epson VT6 robot equipped with an electromagnetic gripper, along with yolov8, to detect and classify batteries.
 
 ## Features
 
@@ -17,6 +16,10 @@ The goal of this project is to develop a robotic system capable of accurately so
 
 ## Code
 
+Code to train yolov8 model : 'Sorting_batteries_yolov8.ipynb'
+Code to run in epsonrc7+ : 'main.prg'
+Code to integrate to real robot or epsonRC simulation : 'Epson_batterysorter.ipynb'
+YoloV8 batterysorter model weight : 'best.pt'
 
 ## Dataset
 
