@@ -16,10 +16,10 @@ The goal of this project is to develop a robotic system capable of accurately so
 
 ## Code
 
-Code to train yolov8 model : 'Sorting_batteries_yolov8.ipynb'
-Code to run in epsonrc7+ : 'main.prg'
-Code to integrate to real robot or epsonRC simulation : 'Epson_batterysorter.ipynb'
-YoloV8 batterysorter model weight : 'best.pt'
+- Code to train yolov8 model : 'Sorting_batteries_yolov8.ipynb'
+- Code to run in epsonrc7+ : 'main.prg'
+- Code to integrate to real robot or epsonRC simulation : 'Epson_batterysorter.ipynb'
+- YoloV8 batterysorter model weight : 'best.pt'
 
 ## Dataset
 
