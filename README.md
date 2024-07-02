@@ -17,7 +17,6 @@ The goal of this project is to develop a robotic system capable of accurately so
 
 ## Code
 
-The code for this project is available in the [GitHub repository](https://github.com/mfaizan44/Robotic-arm-sorting-out-batteries). The repository contains detailed instructions on how to set up the system and run the code.
 
 ## Dataset
 
@@ -25,10 +24,13 @@ The dataset used for training and testing the system is available at [Train Data
 
 ## Requirements
 
-- Epson VT6 robot with electromagnetic gripper.
-- Visual and depth sensors.
+- Epson VT6 robot
+- Electromagnetic gripper.
+- Camera
 - YOLOv8 object detection model.
 - Python programming language.
+- EpsonRC+ Software
+- Batteries : AA, D type, 9v
 
 ## Usage
 
